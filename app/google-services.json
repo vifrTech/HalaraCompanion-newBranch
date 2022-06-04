@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "298660568964",
+    "firebase_url": "https://vifr-halara-1-default-rtdb.firebaseio.com",
+    "project_id": "vifr-halara-1",
+    "storage_bucket": "vifr-halara-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298660568964:android:fbf06c767718e32bad47d1",
+        "android_client_info": {
+          "package_name": "com.firebase.halaracompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298660568964-har973uqdo52osl4ni47eth6eumf7bfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7w09L6UkQphafGNlvZYLZoTFFCQ6cwok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298660568964-har973uqdo52osl4ni47eth6eumf7bfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
