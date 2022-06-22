@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HalaraCompanion">
         <activity
+            android:name=".JointAttentionSettings"
+            android:exported="false" />
+        <activity
             android:name=".SIActivity"
             android:exported="false"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".MainActivity"
             android:exported="false"

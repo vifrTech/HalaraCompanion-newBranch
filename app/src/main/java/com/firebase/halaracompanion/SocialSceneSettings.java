@@ -2,6 +2,8 @@ package com.firebase.halaracompanion;
 
 public class SocialSceneSettings {
     boolean eyetracking;
+    boolean andFlag;
+    boolean uniFlag;
     boolean person;
     boolean background;
     boolean distraction;
@@ -12,7 +14,7 @@ public class SocialSceneSettings {
 
     public SocialSceneSettings(boolean eyetracking, boolean person, boolean background,
                                boolean distraction, boolean music, Integer difficulty,
-                               Integer volume, Integer brightness) {
+                               Integer volume, Integer brightness, boolean andFlag, boolean uniFlag) {
 
         this.eyetracking = eyetracking;
         this.person = person;
@@ -22,6 +24,16 @@ public class SocialSceneSettings {
         this.difficulty = difficulty;
         this.volume = volume;
         this.brightness = brightness;
+        this.andFlag=andFlag;
+        this.uniFlag=uniFlag;
+    }
+
+    public boolean isAndFlag(){
+        return andFlag;
+    }
+
+    public boolean isUniFlag() {
+        return uniFlag;
     }
 
     public boolean isEyetracking() {
